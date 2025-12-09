@@ -154,8 +154,6 @@
         }
         ion-icon {
           display: flex;
-          justify-content: end;
-          margin-left: 350px;
           font-size: 30px;
         }
       }
