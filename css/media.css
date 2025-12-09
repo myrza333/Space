@@ -1,0 +1,233 @@
+@media (max-width: 1000000px) {
+  #header {
+    .header {
+      .header-nav {
+        ion-icon {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+  #main-bottom {
+    .main-bottom {
+      .cards {
+        .card {
+          gap: 30px;
+          img {
+            max-width: 300px;
+            width: 100%;
+            height: 400px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #header {
+    .header {
+      gap: 60px;
+    }
+  }
+  #main-bottom {
+    .main-bottom {
+      .cards {
+        .card {
+          gap: 40px;
+          img {
+            max-width: 300px;
+            width: 100%;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    .header {
+      .header-nav {
+        nav {
+          a {
+            display: none;
+          }
+        }
+        ion-icon {
+          display: flex;
+          justify-content: end;
+          margin-left: 350px;
+          font-size: 30px;
+        }
+      }
+      .header-btn {
+        button {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #main {
+    .main-space {
+      text-align: center;
+    }
+  }
+
+  #main-top {
+    .main-top {
+      .cards {
+        flex-wrap: wrap;
+        .card {
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 20px;
+            line-height: 25px;
+          }
+        }
+      }
+      .cards-2 {
+        flex-wrap: wrap;
+        .card-2 {
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 20px;
+            line-height: 25px;
+            max-width: 600px;
+            width: 100%;
+          }
+          img {
+            max-width: 600px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #main-right {
+    .main-right {
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  #main-bottom {
+    .main-bottom {
+      .cards {
+        .card {
+          flex-direction: column;
+          gap: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #header {
+    .header {
+      .header-nav {
+        nav {
+          a {
+            display: none;
+          }
+        }
+        ion-icon {
+          display: flex;
+          justify-content: end;
+          margin-left: 350px;
+          font-size: 30px;
+        }
+      }
+      .header-btn {
+        button {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #main {
+    .main-space {
+      text-align: center;
+    }
+  }
+
+  #main-top {
+    .main-top {
+      .cards {
+        flex-wrap: wrap;
+        .card {
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 20px;
+            line-height: 25px;
+          }
+        }
+      }
+      .cards-2 {
+        flex-wrap: wrap;
+        .card-2 {
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 20px;
+            line-height: 25px;
+            max-width: 600px;
+            width: 100%;
+          }
+          img {
+            max-width: 600px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #main-right {
+    .main-right {
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  #main-bottom {
+    .main-bottom {
+      .cards {
+        .card {
+          flex-direction: column;
+          gap: 20px;
+        }
+      }
+    }
+  }
+}
